@@ -22,7 +22,7 @@ const server = http.createServer(app);
 // 4. Socket.io Configuration
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:3000", "https://your-frontend-link.vercel.app"], // Apna frontend link yahan daalein
+    origin: ["http://localhost:3000", "https://lost-and-found-frontend-3lqr.onrender.com"], // Apna frontend link yahan daalein
     methods: ["GET", "POST"],
   },
 });
